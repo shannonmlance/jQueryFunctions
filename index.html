@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery Functions</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>This page is designed to show various basic jQuery functions.</h1>
+        <div class="container function">
+            <h3>Hide and Show</h3>
+            <div class="buttons">
+                <button class="btn btn-primary" id="hide-btn">Hide</button>
+                <button class="btn btn-primary" id="show-btn">Show</button>
+            </div>
+            <p class="demo-text" id="hide-and-show-text">Click the hide button to make this text disappear. Click the show button to bring it back.</p>
+        </div>
+        <div class="container function">
+            <h3>Toggle</h3>
+            <div class="buttons">
+                <button class="btn btn-primary" id="toggle-btn">Toggle</button>
+            </div>
+            <p class="demo-text" id="toggle-text">Click the toggle button to make this text disappear. Click the toggle button again to bring it back.</p>
+        </div>
+        <div class="container function">
+            <h3>Slide Up and Down</h3>
+            <div class="buttons">
+                <button class="btn btn-primary" id="slide-up-btn">Slide Up</button>
+                <button class="btn btn-primary" id="slide-down-btn">Slide Down</button>
+            </div>
+            <p class="demo-text" id="slide-text">Click the slide up button to make this text disappear. Click the slide down button to bring it back.</p>
+        </div>
+        <div class="container function">
+            <h3>Slide Toggle</h3>
+            <div class="buttons">
+                <button class="btn btn-primary" id="slide-toggle-btn">Slide Toggle</button>
+            </div>
+            <p class="demo-text" id="slide-toggle-text">Click the slide toggle button to make this text disappear. Click the slide toggle button again to bring it back.</p>
+        </div>
+        <div class="container function">
+            <h3>Fade Out and In</h3>
+            <div class="buttons">
+                <button class="btn btn-primary" id="fade-out-btn">Fade Out</button>
+                <button class="btn btn-primary" id="fade-in-btn">Fade In</button>
+            </div>
+            <p class="demo-text" id="fade-text">Click the fade out button to make this text disappear. Click the fade in button to bring it back.</p>
+        </div>
+        <div class="container function">
+            <h3>Before and After</h3>
+            <div class="buttons">
+                <button class="btn btn-primary" id="before-btn">Before</button>
+                <button class="btn btn-primary" id="after-btn">After</button>
+            </div>
+            <div class="modified-text">
+                <p id="before-and-after-static-text">Click the before and after buttons to alter this text.</p>
+                <p class="bold" id="before-and-after-text">Where does this sentence belong?</p>
+            </div>
+        </div>
+        <div class="container function">
+            <h3>Prepend and Append</h3>
+            <div class="buttons">
+                <button class="btn btn-primary" id="prepend-btn">Prepend</button>
+                <button class="btn btn-primary" id="append-btn">Append</button>
+            </div>
+            <div class="modified-text">
+                <p id="prepend-and-append-static-text">Click the before and after buttons to alter this text.</p>
+                <p class="bold" id="prepend-and-append-text">Where does this sentence belong?</p>
+            </div>
+        </div>
+        <div class="container function">
+            <h3>Add and Remove Class</h3>
+            <div class="buttons"></div>
+            <p class="demo-text" id="add-and-remove-class-text">Hover over this text to add bold and red classes. Move off of this text to remove bold and red classes.</p>
+        </div>
+        <div class="container function">
+            <h3>Html</h3>
+            <div class="buttons">
+                <p id="html-btn"><button class="btn btn-primary">Html</button></p>
+            </div>
+            <p class="demo-text" id="html-text">Click the Html button to see its html.</p>
+        </div>
+        <div class="container function">
+            <h3>Attr</h3>
+            <div class="buttons">
+                <button class="btn btn-primary" id="attr-btn">Attr</button>
+            </div>
+            <div class="modified-text">
+                <p id="attr-text">Click the Attr button to display class attributes of the button.</p>
+                <p>The classes of the button are: <p class="bold" id="attr-btn-display"></p></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="functions.js"></script>
+</body>
+</html>

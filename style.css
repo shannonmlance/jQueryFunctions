@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(176, 224, 230, 0.459);
+    padding-bottom: 50px;
+}
+h1 {
+    margin-bottom: 35px;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+.buttons, .demo-text, .modified-text {
+    display: inline-block;
+    vertical-align: top;
+}
+.buttons {
+    width: 30%;
+}
+.demo-text, .modified-text {
+    width: 65%;
+}
+.btn {
+    margin-left: 7px;
+}
+.function {
+    min-height: 150px;
+}
+.bold {
+    font-weight: bolder;
+}
+.red {
+    color: red;
+} 
+#show-btn {
+    display: none;
+}
+#slide-down-btn {
+    display: none;
+}
+#fade-in-btn {
+    display: none;
+}
